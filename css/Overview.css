@@ -373,18 +373,9 @@ body
    margin: 0;
    text-align: left;
 }
-#wb_Text2
+#wb_Text2 div
 {
-   color: #DCDCDC;
-   font-family: Arial;
-   font-weight: 400;
-   font-size: 21px;
-   line-height: 24.5px;
-}
-#wb_Text2 p, #wb_Text2 ul
-{
-   margin: 0;
-   padding: 0;
+   text-align: left;
 }
 #wb_Text2
 {
