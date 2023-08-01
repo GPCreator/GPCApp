@@ -687,25 +687,6 @@ body
    box-sizing: border-box;
    width: 100%;
 }
-#wb_Image1
-{
-   margin: 0;
-   vertical-align: top;
-}
-#Image1
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   padding: 0;
-   display: block;
-   width: 100%;
-   height: auto;
-   max-width: 141px;
-   margin-left: auto;
-   margin-right: auto;
-   vertical-align: top;
-}
 #wb_Text3 
 {
    background-color: transparent;
@@ -900,66 +881,4 @@ body
    display: inline-block;
    width: 61px;
    height: auto;
-}
-#wb_LayoutGrid3
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   border-radius: 0px;
-   box-sizing: border-box;
-   margin: 0;
-}
-#LayoutGrid3
-{
-   box-sizing: border-box;
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   padding: 0;
-   margin-right: auto;
-   margin-left: auto;
-}
-#LayoutGrid3 > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#LayoutGrid3 > .col-1
-{
-   flex: 0 0 auto;
-}
-#LayoutGrid3 > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   flex-basis: 100%;
-   max-width: 100%;
-   display: flex;
-   flex-wrap: wrap;
-   align-content: center;
-   align-self: stretch;
-   align-items: center;
-   justify-content: flex-start;
-   text-align: left;
-}
-@media (max-width: 480px)
-{
-#LayoutGrid3 > .col-1
-{
-   flex-basis: 100% !important;
-   max-width: 100% !important;
-}
 }
