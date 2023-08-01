@@ -747,6 +747,7 @@ body
 }
 #wb_Image1
 {
+   height: 100%;
    margin: 0;
    vertical-align: top;
 }
@@ -758,9 +759,7 @@ body
    padding: 0;
    display: block;
    width: 100%;
-   height: auto;
-   max-width: 125px;
-   margin-left: auto;
-   margin-right: auto;
+   height: 100%;
    vertical-align: top;
+   object-fit: cover;
 }
