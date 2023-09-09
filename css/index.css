@@ -59,12 +59,15 @@ body
 #LayoutGrid1
 {
    box-sizing: border-box;
+   width: 100%;
    padding: 0 10px 0 10px;
    margin-right: auto;
    margin-left: auto;
 }
 #LayoutGrid1 > .row
 {
+   display: grid;
+   grid-template-columns: repeat(12, 8.333333%);
    margin-right: -10px;
    margin-left: -10px;
 }
@@ -76,14 +79,18 @@ body
    padding-right: 10px;
    padding-left: 10px;
    position: relative;
+   grid-column: span 12;
 }
 #LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
 {
-   float: left;
 }
 #LayoutGrid1 > .row > .col-1
 {
-   width: 25%;
+   grid-column: span 3;
+   flex-wrap: wrap;
+   align-content: stretch;
+   align-self: stretch;
+   align-items: stretch;
    text-align: left;
 }
 #LayoutGrid1 > .row > .col-2
@@ -92,28 +99,19 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   width: 75%;
+   grid-column: span 9;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
    text-align: right;
-}
-#LayoutGrid1:before,
-#LayoutGrid1:after,
-#LayoutGrid1 .row:before,
-#LayoutGrid1 .row:after
-{
-   display: table;
-   content: " ";
-}
-#LayoutGrid1:after,
-#LayoutGrid1 .row:after
-{
-   clear: both;
 }
 @media (max-width: 480px)
 {
 #LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2
 {
-   float: none;
-   width: 100% !important;
+   width: 100%;
+   grid-column: span 12;
 }
 }
 #wb_Text1 

@@ -7,11 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="GPCreator.ico" rel="shortcut icon" type="image/x-icon">
 <link href="GPCreator2.png" rel="icon" sizes="64x64" type="image/png">
-<link href="css/font-awesome.min.css" rel="stylesheet">
 <link href="css/GPCreator_2.css" rel="stylesheet">
 <link href="css/Overview.css" rel="stylesheet">
 <script src="jquery-3.7.0.min.js"></script>
-<script src="wb.stickylayer.min.js"></script>
 <script src="wwb18.min.js"></script>
 <script>
 $(document).ready(function()
@@ -24,6 +22,11 @@ $(document).ready(function()
    {
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_TOP').offset().top }, 600, 'linear');
+   });
+   $("a[href*='#LayoutGrid2']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid2').offset().top }, 600, 'linear');
    });
    function onScrollText3()
    {
@@ -81,7 +84,6 @@ $(document).ready(function()
    {
       onScrollText6();
    });
-   $("#Layer1").stickylayer({orientation: 3, position: [50, 50], delay: 500});
    $(window).on('resize', function()
    {
       ResponsiveVideo('LayoutGrid2-video');
@@ -98,7 +100,7 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_Text8" onmouseenter="AnimateCss('wb_Text8', 'fall', 0, 500);return false;">
-<span style="color:#5959D5;font-family:Arial;font-size:37px;"><strong>GP</strong></span><span style="color:#B23A29;font-family:Arial;font-size:37px;"><strong>Creator</strong></span>
+<p style="font-size:21px;line-height:24.5px;font-weight:bold;"><span style="font-size:37px;line-height:41.5px;">GP</span><span style="font-size:37px;line-height:41.5px;color:#B23A29;">Creator</span></p>
 </div>
 </div>
 <div class="col-2">
@@ -140,7 +142,7 @@ $(document).ready(function()
 <span style="color:#DCDCDC;font-family:Arial;font-size:35px;"><strong><br><br>Features of GPCreator:<br></strong></span>
 </div>
 <div id="wb_Text2">
-<span style="color:#DCDCDC;font-family:Arial;font-size:35px;"><strong><br></strong></span><span style="color:#DCDCDC;font-family:Arial;font-size:16px;">• A file manager app.<br><br>• A file organizer app.<br><br>• Self context popup menu. Sent To &gt; GPCreator<br><br>• Tabs allow you to have multiple archives and folders open.<br><br>• Create multiple archives simultaneously with ease.<br> <br>• Drag and drop support.<br><br>• Ability to open multiple archives.<br><br>• Ability to save, create and browse Save File Output in each tab.<br><br>• This app has the ability to search different file names in a row with just one search.<br> <br>• Auto configure the best settings for your archive file when creating it.<br> <br>• Shut down your computer using GPCSleep Timer Tool. Set the duration to a minimun of 1 minute and your computer will shutdown automatically.<br>&nbsp; <br>• </span><span style="color:#FF0000;font-family:Arial;font-size:16px;">Add Mini Wizard Tool </span><span style="color:#DCDCDC;font-family:Arial;font-size:16px;">- allows you to compress the files and folders you have selected on your hard drive. Even if you have stopped the compressing process, you can recompress them again just by clicking the repack menu in the commands menu of the Add Wizard Tool Window. <br> <br>• </span><span style="color:#FF0000;font-family:Arial;font-size:16px;">Shred Mini Wizard Tool and GPCreator Shredding files/folders </span><span style="color:#DCDCDC;font-family:Arial;font-size:16px;">- secure deletion that prevents file recovery.<br><br>• </span><span style="color:#FF0000;font-family:Arial;font-size:16px;">Import/Export Project </span><span style="color:#DCDCDC;font-family:Arial;font-size:16px;">- You can save your work and continue it again. With this feature you have no worries anymore to manage your documents.<br> <br>• </span><span style="color:#FF0000;font-family:Arial;font-size:16px;">Lock/Unlock mode </span><span style="color:#DCDCDC;font-family:Arial;font-size:16px;">- You can lock your tabs so that your project name does not change when you open a folder to the currently selected tab.<br> <br>• </span><span style="color:#FF0000;font-family:Arial;font-size:16px;">Search Multiple Files Tool </span><span style="color:#DCDCDC;font-family:Arial;font-size:16px;">- This tool allows you to search files with different strings simultaneously.<br> <br>• </span><span style="color:#FF0000;font-family:Arial;font-size:16px;">Multiple passwords </span><span style="color:#DCDCDC;font-family:Arial;font-size:16px;">- You can set multiple passwords in each tab for your archive files.<br> <br>• </span><span style="color:#FF0000;font-family:Arial;font-size:16px;">Self Compress Tool </span><span style="color:#DCDCDC;font-family:Arial;font-size:16px;">- You can compress all the tabs individually without interfering with the GPCreator app. This feature allows you to compress&nbsp; files with different archive formats.<br><br>• </span><span style="color:#FF0000;font-family:Arial;font-size:16px;">Create in Hard Drive Tool </span><span style="color:#DCDCDC;font-family:Arial;font-size:16px;">- Organize your messy random files in just one click.<br> <br>• </span><span style="color:#FF0000;font-family:Arial;font-size:16px;">Archive SearchTract Tool </span><span style="color:#DCDCDC;font-family:Arial;font-size:16px;">- helps you find things fast. Its unique features allow it to dig out information in even the most obscure file formats. You can search files in ZIP, RAR, CAB, 7-Zip, Bzip, CPIO, XZ, GZIP, ISO, LZH, TAR without opening these archive formats, and Archive SearchTract Tool will show you all the results and can extract only the files you searched for. You can also use this tool in folders as well. With this tool, you can search files with ease.<br> <br>• ...And many more tricks, new tools and updates! (For more info please visit our youtube channel)<br> <br><br></span><span style="color:#DCDCDC;font-family:Arial;font-size:13px;"><br><br></span>
+<span style="color:#DCDCDC;font-family:Arial;font-size:35px;"><strong><br></strong></span><span style="color:#DCDCDC;font-family:Arial;font-size:16px;">• A file manager app.<br><br>• A file organizer app.<br><br>• Self context popup menu. Sent To &gt; GPCreator<br><br>• Tabs allow you to have multiple archives and folders open.<br><br>• Create multiple archives simultaneously with ease.<br> <br>• Drag and drop support.<br><br>• Ability to open multiple archives.<br><br>• Ability to save, create and browse Save File Output in each tab.<br><br>• This app has the ability to search different file names in a row with just one search.<br> <br>• Auto configure the best settings for your archive file when creating it.<br> <br>• Shut down your computer using GPCSleep Timer Tool. Set the duration to a minimun of 1 minute and your computer will shutdown automatically.<br>&nbsp; <br>• </span><span style="color:#FF0000;font-family:Arial;font-size:16px;">Add Mini Wizard Tool </span><span style="color:#DCDCDC;font-family:Arial;font-size:16px;">- allows you to compress the files and folders you have selected on your hard drive. Even if you have stopped the compressing process, you can recompress them again just by clicking the repack menu in the commands menu of the Add Wizard Tool Window. <br> <br>• </span><span style="color:#FF0000;font-family:Arial;font-size:16px;">Shred Mini Wizard Tool and GPCreator Shredding files/folders </span><span style="color:#DCDCDC;font-family:Arial;font-size:16px;">- secure deletion that prevents file recovery.<br><br>• </span><span style="color:#FF0000;font-family:Arial;font-size:16px;">Import/Export Project </span><span style="color:#DCDCDC;font-family:Arial;font-size:16px;">- You can save your work and continue it again. With this feature you have no worries anymore to manage your documents.<br> <br>• </span><span style="color:#FF0000;font-family:Arial;font-size:16px;">Lock/Unlock mode </span><span style="color:#DCDCDC;font-family:Arial;font-size:16px;">- You can lock your tabs so that your project name does not change when you open a folder to the currently selected tab.<br> <br>• </span><span style="color:#FF0000;font-family:Arial;font-size:16px;">Search Multiple Files Tool </span><span style="color:#DCDCDC;font-family:Arial;font-size:16px;">- This tool allows you to search files with different strings simultaneously.<br> <br>• </span><span style="color:#FF0000;font-family:Arial;font-size:16px;">Multiple passwords </span><span style="color:#DCDCDC;font-family:Arial;font-size:16px;">- You can set multiple passwords in each tab for your archive files.<br> <br>• </span><span style="color:#FF0000;font-family:Arial;font-size:16px;">Self Compress Tool </span><span style="color:#DCDCDC;font-family:Arial;font-size:16px;">- You can compress all the tabs individually without interfering with the GPCreator app. This feature allows you to compress&nbsp; files with different archive formats.<br><br>• </span><span style="color:#FF0000;font-family:Arial;font-size:16px;">Create in Hard Drive Tool </span><span style="color:#DCDCDC;font-family:Arial;font-size:16px;">- Organize your messy random files in just one click.<br> <br>• </span><span style="color:#FF0000;font-family:Arial;font-size:16px;">Archive SearchTract Tool </span><span style="color:#DCDCDC;font-family:Arial;font-size:16px;">- helps you find things fast. Its unique features allow it to dig out information in even the most obscure file formats. You can search files in ZIP, RAR, CAB, 7-Zip, Bzip, CPIO, XZ, GZIP, ISO, LZH, TAR without opening these archive formats, and Archive SearchTract Tool will show you all the results and can extract only the files you searched for. You can also use this tool in folders as well. With this tool, you can search files with ease.<br> <br>• ...And many more new tools and updates! (For more info please visit our youtube channel)<br> <br><br></span><span style="color:#DCDCDC;font-family:Arial;font-size:13px;"><br><br></span>
 </div>
 </div>
 </div>
@@ -189,10 +191,15 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-<div id="Layer1" style="position:absolute;text-align:left;left:983px;top:696px;width:60px;height:55px;z-index:12;">
+<div id="Layer1" style="position:fixed;text-align:center;left:0;right:0;bottom:0;height:55px;z-index:12;">
+<div id="Layer1_Container" style="width:100%">
 <div id="wb_Icon1" style="display:inline-block;width:60px;height:50px;text-align:center;z-index:11;">
-<a href="#TOP"><div id="Icon1"><i class="fa fa-arrow-circle-o-up"></i></div></a>
+<a href="#LayoutGrid2"><svg id="Icon1" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M739 651 L797 592 C805 585, 808 577, 808 567 C808 557, 805 548, 797 541 L538 282 C531 274, 522 271, 512 271 C502 271, 494 274, 487 282 L227 541 C220 548, 216 557, 216 567 C216 577, 220 585, 227 592 L285 651 C293 658, 301 662, 311 662 C321 662, 330 658, 337 651 L512 475 L688 651 C695 658, 705 662, 713 662 C723 662, 732 658, 739 651 Z M892 292 C932 359, 951 432, 951 512 C951 591, 932 665, 892 732 C853 799, 800 853, 733 892 C665 931, 592 951, 512 951 C433 951, 359 931, 292 892 C225 853, 172 799, 132 732 C93 665, 74 591, 74 512 C74 432, 93 359, 132 292 C172 224, 225 171, 292 132 C359 93, 433 73, 512 73 C592 73, 665 93, 733 132 C800 171, 853 224, 892 292"/>
+</svg>
+</a>
 <script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
+</div>
 </div>
 </div>
 </body>
