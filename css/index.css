@@ -39,7 +39,7 @@ body
 #Banner1
 {
    margin: 0;
-   animation: animate-fade-in-left 1000ms linear 0ms 1 normal both;
+   animation: animate-fade-in-left 1000ms linear 0ms 1 normal both, swoop-in 1000ms linear 0ms 1 normal both;
 }
 #wb_LayoutGrid1
 {
