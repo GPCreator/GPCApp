@@ -907,8 +907,6 @@ body
    border-radius: 0px;
    box-sizing: border-box;
    padding: 0;
-   transform: rotate(178deg);
-   transform-origin: 50% 50%;
    display: inline-block;
    width: 18px;
    height: auto;
