@@ -935,6 +935,7 @@ body
 #Banner2
 {
    margin: 0;
+   animation: transform-wobble 1000ms linear 0ms 1 normal both;
    flex-grow: 0;
    flex-shrink: 0;
    align-self: auto;
