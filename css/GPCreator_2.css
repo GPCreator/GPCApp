@@ -115,6 +115,7 @@ a.style2:hover
 a.style3
 {
    color: #FFFFFF;
+   font-weight: bold;
    text-decoration: underline;
 }
 a.style3:visited
